@@ -1,0 +1,66 @@
+/*  Universal Styles */
+
+html {
+   font-size: 14px;
+
+}
+
+body {
+  font-family: 'Open Sans',sans-serif;
+
+}
+
+
+/*  Bootstrap Overrides*/
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+
+  background-color: inherit;
+  color: rgba(57, 155, 209, 1);
+}
+
+/* Navigation */
+
+.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+}
+
+.navbar {
+  font-size: 1.1rem;
+  font-weight:600
+}
+
+/* Hide logo */
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand{
+    display: none;
+  }
+}
+
+.jumbotron-bike {
+
+   background-image: url("../images/jumbotron-bike.jpg");
+
+}
+
+.jumbotron {
+  height: 44rem;
+  padding-top: 10rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgba(255, 255, 255, 1);
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.jumbotron h1 {
+  font-family: "Monoton", sans-serif;
+  font-size: 7.1rem;
+}
