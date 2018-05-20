@@ -1,10 +1,10 @@
 $(document).ready(function(){
   $('.carousel').slick({
     slidesToScroll: 1,
-    //fade: true,
-    //speed:500,
+    /*fade: true,
+    speed:500,*/
     autoplay: true,
-    autoplaySpeed: 6000,
+    autoplaySpeed: 4000,
     arrows: false,
     draggable: false,
     pauseOnFocus: false,
